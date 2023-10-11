@@ -1,0 +1,130 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 120vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    background-image: url(https://cdn.pic.in.th/file/picinth/w244670b54ae4236e8.th.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.wangchin {
+    color: #fff;
+    padding: 25px;
+}
+
+.wangchin h2 {
+    font-family: Caveat;
+    font-size: 2rem;
+    letter-spacing: 2.8px;
+}
+
+.txt h1 {
+    font-family: Caveat;
+    font-size: 7rem;
+}
+
+.wangchin p {
+  font-family: 'Noto Sans Thai';
+  opacity: 0.4;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.card h2 {
+    font-family: 'Noto Sans Thai';
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.card .box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    width: 90%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.box1 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/image-14258b650e31e98a7.th.png);
+}
+
+.box2 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/image-3f4e0748bee9d2a32.th.png);
+}
+
+.box3 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/imagea374a321775aaa21.png);
+}
+
+.box4 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/image-27f0dbb5624b6adda.th.png);
+}
+
+.box5 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/img59e6fdc674af154c7.th.jpeg);
+}
+
+.box6 {
+    background-image: url(https://cdn.pic.in.th/file/picinth/img6.th.webp);
+}
+
+.card div {
+  transition: 0.5s;
+}
+
+.card div:hover {
+  transition: 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
