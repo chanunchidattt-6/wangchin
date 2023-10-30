@@ -26,7 +26,7 @@
     position: absolute;
     z-index: -1;
     filter: brightness(45%);
-    background-image: url(https://l.facebook.com/l.php?u=https%3A%2F%2Fimg2.pic.in.th%2Fpic%2FA1469D42-D3B3-4048-8EB4-A9F68722F68C.th.png%3Ffbclid%3DIwAR133MKMZ7EUXnwSUo94-5bzrDRZRiyESJ4PNbREsCyi4BisFQuELKaAsXY&h=AT15t7LkZ3KeZqe_ZPsdr26eSBkSQuR24lFpxSmR4OMxT9Rmpyx03BgNvK7TRpmdOFThMaGkt8sA0a_uvNZyXMqPy8s3OyYNvPhhZukslO4SnxB_Nh_aFzG2NU2Q1qf8G2fU8w);
+    background-color: black;
     background-size: cover;
     background-position: center;
  }
