@@ -26,7 +26,7 @@
     position: absolute;
     z-index: -1;
     filter: brightness(45%);
-    background-image: url(https://cdn.pic.in.th/file/picinth/w244670b54ae4236e8.th.png);
+    background-image: src(images..html);
     background-size: cover;
     background-position: center;
  }
